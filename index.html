@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery List</title>
+
+    <!-- link in the external style sheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- add in some internal style -->
+    <style>
+      body {
+        background-color: azure;
+        font-family: Cambria;
+      }
+      section {
+        width: 100%;
+        padding: 5px;
+        border: 2px;
+        border-color: black;
+        margin: 10px 5px 10px 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>My Grocery List</h1>
+
+    <div class="parentBlock">
+      <section>
+        <h3>Fresh Foods</h3>
+
+        <div class="listBlock">
+          <h4>Green Goods</h4>
+          <ul>
+            <li>Oranges</li>
+            <li>Salad Mix</li>
+            <li>Carrots</li>
+          </ul>
+        </div>
+        <div class="listBlock">
+          <h4>Dairy</h4>
+          <ul>
+            <li>Milk</li>
+            <li>Half'N Half</li>
+            <li>Butter</li>
+          </ul>
+        </div>
+        <img src="./chopped-salad-scaled.jpg" alt="Salad" />
+      </section>
+    </div>
+
+    <div class="parentBlock">
+      <section>
+        <h3>Center of Store</h3>
+
+        <div class="listBlock">
+          <h4>Frozen</h4>
+          <ol>
+            <li>Fruit</li>
+            <li>Ice Cream</li>
+            <li>Frozen Waffle</li>
+            <li>Frozen Pizza</li>
+          </ol>
+        </div>
+        <div class="listBlock">
+          <h4>Spices and Such</h4>
+          <ol>
+            <li>Salt</li>
+            <li>Olive Oil</li>
+            <li>Rosemary</li>
+            <li>Sugar</li>
+          </ol>
+        </div>
+        <img src="./openRefrigeratorjpg.jpg" alt="Ice Cream" />
+      </section>
+    </div>
+  </body>
+
+  <footer>** Check Trader Joe's for new snacks.</footer>
+</html>
